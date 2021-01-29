@@ -1,0 +1,10 @@
+<?php
+session_start();
+session_unset();
+session_destroy();
+?>
+ログアウトしました。
+ログインページに戻ります
+<?
+    header('Location:login.html');
+?>
